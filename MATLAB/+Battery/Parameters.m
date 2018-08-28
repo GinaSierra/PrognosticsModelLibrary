@@ -131,6 +131,16 @@ P.v.Vsn = 1e-10;
 P.v.Vsp = 1e-10;
 P.v.Tb = 1e-6;
 
+% Initial states variances
+P.x0Variance.qpS = 1e-2;
+P.x0Variance.qpB = 1e-0;
+P.x0Variance.qnS = 1e-2;
+P.x0Variance.qnB = 1e-0;
+P.x0Variance.Vo = 1e-3;
+P.x0Variance.Vsn = 1e-3;
+P.x0Variance.Vsp = 1e-3;
+P.x0Variance.Tb = 1e-6;
+
 % Sensor noise variances
 P.n.Vm = 1e-3;
 P.n.Tbm = 1e-3;
